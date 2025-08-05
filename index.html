@@ -2,352 +2,380 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FURNIRO</title>
-  <link rel="stylesheet" href="./assets/CSS/style.css">
+  <meta charset="UTF-8" />
+  <meta name="description" content="Discover modern furniture at Furniro. Shop stylish sofas, chairs, beds, and more.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furniro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/CSS/style.css" />
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container">
-      <div class="logo d-flex justify-content-around align-item-center">
-        <a href="#" aria-label="go to home page"><img src="./assets/image/logo.svg" alt="furniro logo"></a>
-        <nav>
+      <a href="#" class="logo">
+        <img src="./assets/image/logo.svg" alt="Furniro Logo" />
+        Furniro
+      </a>
+
+      <nav class="navigation">
+        <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-icons">
+        <a href="#"><img src="./assets/image/alert.svg" alt="alert" /></a>
+        <a href="#"><img src="./assets/image/search.svg" alt="Search" /></a>
+        <a href="#"><img src="./assets/image/heart (1).svg" alt="Heart" /></a>
+        <a href="#"><img src="./assets/image/shopping.svg" alt="Cart" /></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="banner-content">
+        <p class="small-title">New Arrival</p>
+        <h1 class="main-heading">Discover Our<br />New Collections</h1>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus nec ullamcorper mattis.
+        </p>
+        <a href="#" class="btn-buy">Buy Now</a>
+      </div>
+    </section>
+
+    <section class="browse-range">
+      <div class="browse-container">
+        <div class="browse-text">
+          <h2>Browse The Range</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="browse-cards">
+          <div class="card">
+            <img src="./assets/image/Dining.png" alt="Dining" />
+            <h3>Dining</h3>
+          </div>
+          <div class="card">
+            <img src="./assets/image/Living.png" alt="Living" />
+            <h3>Living</h3>
+          </div>
+          <div class="card">
+            <img src="./assets/image/Bedroom.png" alt="Bedroom" />
+            <h3>Bedroom</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="our-products">
+      <div class="products-container">
+        <div class="products-text">
+          <h2>Our Products</h2>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-row">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/image/Syltherin.png" alt="Syltherine" />
+                <div class="discount-badge">-30%</div>
+              </div>
+              <div class="product-info">
+                <h3>Syltherine</h3>
+                <p>Stylish cafe chair</p>
+                <div class="price">
+                  <span class="current-price">Rp 2.500.000</span>
+                  <span class="original-price">Rp 3.500.000</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card overlay-product">
+              <div class="product-image">
+                <img src="./assets/image/Leviosa.png" alt="Leviosa" />
+                <div class="product-overlay">
+                  <button class="add-to-cart">Add to cart</button>
+                  <div class="product-actions">
+                    <div class="action-item">
+                      <img src="./assets/image/share.svg" alt="Share" />
+                      <span>Share</span>
+                    </div>
+                    <div class="action-item">
+                      <img src="./assets/image/compare1 .svg" alt="Compare" />
+                      <span>Compare</span>
+                    </div>
+                    <div class="action-item">
+                      <img src="./assets/image/heart .svg" alt="Like" />
+                      <span>Like</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3>Leviosa</h3>
+                <p>Stylish cafe chair</p>
+                <div class="price">
+                  <span class="current-price">Rp 2.500.000</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/image/Lolito.png" alt="Lolito" />
+                <div class="discount-badge">-50%</div>
+              </div>
+              <div class="product-info">
+                <h3>Lolito</h3>
+                <p>Luxury big sofa</p>
+                <div class="price">
+                  <span class="current-price">Rp 7.000.000</span>
+                  <span class="original-price">Rp 14.000.000</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/image/Respira.png" alt="Respira" />
+                <div class="new-badge">New</div>
+              </div>
+              <div class="product-info">
+                <h3>Respira</h3>
+                <p>Outdoor bar table and stool</p>
+                <div class="price">
+                  <span class="current-price">Rp 500.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-row">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/image/Grifo.png" alt="Grifo" />
+              </div>
+              <div class="product-info">
+                <h3>Grifo</h3>
+                <p>Night lamp</p>
+                <div class="price">
+                  <span class="current-price">Rp 1.500.000</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/image/Muggo.png" alt="Muggo" />
+                <div class="new-badge">New</div>
+              </div>
+              <div class="product-info">
+                <h3>Muggo</h3>
+                <p>Small mug</p>
+                <div class="price">
+                  <span class="current-price">Rp 150.000</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/image/Pingky.png" alt="Pingky" />
+                <div class="discount-badge">-50%</div>
+              </div>
+              <div class="product-info">
+                <h3>Pingky</h3>
+                <p>Cute bed set</p>
+                <div class="price">
+                  <span class="current-price">Rp 7.000.000</span>
+                  <span class="original-price">Rp 14.000.000</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="./assets/image/Potty.png" alt="Potty" />
+                <div class="new-badge">New</div>
+              </div>
+              <div class="product-info">
+                <h3>Potty</h3>
+                <p>Minimalist flower pot</p>
+                <div class="price">
+                  <span class="current-price">Rp 500.000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="show-more-container">
+          <button class="show-more-btn">Show More</button>
+        </div>
+      </div>
+    </section>
+
+        <div class="show-more-container">
+          <button class="show-more-btn">Show More</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="inspiration-section">
+      <div class="inspiration-container">
+
+        <div class="inspiration-left">
+          <h2>50+ Beautiful rooms inspiration</h2>
+          <p>Our designer already made a lot of beautiful prototype of rooms that inspire you</p>
+          <a href="#" class="explore-btn">Explore More</a>
+        </div>
+
+
+        <div class="inspiration-right">
+
+          <div class="main-room-container">
+            <div class="main-room-display">
+              <img src="./assets/image/room1.jpg" alt="Bedroom Inspiration" />
+              <div class="room-info-overlay">
+                <div class="room-details">
+                  <span class="room-number">01</span>
+                  <span class="room-separator">——</span>
+                  <span class="room-type">Bed Room</span>
+                </div>
+                <h3 class="room-name">Inner Peace</h3>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="secondary-room-container">
+            <div class="secondary-room-display">
+              <img src="./assets/image/room2.jpg" alt="Dining Room Inspiration" />
+            </div>
+          </div>
+
+
+          <div class="tertiary-room-container">
+            <div class="tertiary-room-display">
+              <img src="./assets/image/room3.jpg" alt="Living Room Inspiration" />
+            </div>
+          </div>
+
+
+          <div class="center-btn-wrapper">
+            <div class="center-btn-container">
+              <a href="#" class="center-nav-btn">
+                <img src="./assets/image/arrow.svg" alt="View Room" />
+              </a>
+            </div>
+          </div>
+
+
+          <div class="left-btn-wrapper">
+            <div class="left-btn-container">
+              <a href="#" class="left-nav-btn">
+                <img src="./assets/image/next.svg" alt="Next Room" />
+              </a>
+            </div>
+          </div>
+
+
+          <div class="dots-wrapper">
+            <div class="carousel-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="heading-holder margin-bottom-negative">
+        <p class="sec-sub margin-bottom-sm">Share your setup with</p>
+        <h2 class="secondary-heading">#FuniroFurniture</h2>
+      </div>
+      <div class="gallery-container">
+        <div class="gallery-pic-holder first">
+          <img src="./assets/image/img1.jpg" alt=" a photo of a white pot" />
+        </div>
+        <div class="gallery-pic-holder second">
+          <img src="./assets/image/img2.jpg" alt=" a photo of a white pot" />
+        </div>
+        <div class="gallery-pic-holder third">
+          <img src="./assets/image/img3.jpg" alt="Computer setup" />
+        </div>
+        <div class="gallery-pic-holder fourth">
+          <img src="./assets/image/img4.jpg" alt=" a photo of a white pot" />
+        </div>
+        <div class="gallery-pic-holder fifth">
+          <img src="./assets/image/img5.jpg" alt=" a photo of a white pot" />
+        </div>
+        <div class="gallery-pic-holder sixth">
+          <img src="./assets/image/img6.jpg" alt=" a photo of a white pot" />
+        </div>
+        <div class="gallery-pic-holder seventh">
+          <img src="./assets/image/img7.jpg" alt=" a photo of a white pot" />
+        </div>
+        <div class="gallery-pic-holder eighth">
+          <img src="./assets/image/img8.jpg" alt=" a photo of a white pot" />
+        </div>
+        <div class="gallery-pic-holder ninth">
+          <img src="./assets/image/img9.jpg" alt=" a photo of a white pot" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrapper">
+      <div class="footer-logo">
+        <a href="#"><img src="./assest/images/Meubel House_Logos-05.png" alt="Furniro Logo" /></a>
+        <p>400 University Drive Suite 200 Coral Gables,</p>
+        <p>FL 33134</p>
+        <p>USA</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="link-column">
+          <h4>Links</h4>
           <a href="#">Home</a>
           <a href="#">Shop</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
-        </nav>
-        <div class="icon">
-          <img src="./assets/image/alert.svg" alt="alert">
-          <img src="./assets/image/search.svg" alt="search">
-          <img src="./assets/image/heart.svg" alt="heart">
-          <img src="./assets/image/shopping.svg" alt="shopping">
+        </div>
+        <div class="link-column">
+          <h4>Help</h4>
+          <a href="#">Payment Options</a>
+          <a href="#">Returns</a>
+          <a href="#">Privacy Policies</a>
+        </div>
+        <div class="newsletter">
+          <h4>Newsletter</h4>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter Your Email Address" />
+            <button>SUBSCRIBE</button>
+          </div>
         </div>
       </div>
     </div>
-  </header>
-  <main>
-    <section class="banner">
-      <div class="container">
-        <div class="banner-card">
-          <div class="card">
-            <span>New Arrival</span>
-            <h1>Discover Our New Collections</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-              ullamcorper mattis.</p>
-            <a href="#"><button>BUY Now</button></a>
 
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="product-range">
-      <div class="container">
-        <div class="range ">
-          <div class="heading">
-            <h2>Browse The Range</h2>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-          </div>
-          <div class="cards d-flex justify-content-between">
-            <div class="room">
-              <img src="./assets/image/dining.png" alt="Dining room">
-              <h3>Dining</h3>
-            </div>
-            <div class="room">
-              <img src="./assets/image/Living.png" alt="living room">
-              <h3>living</h3>
-            </div>
-            <div class="room">
-              <img src="./assets/image/bedroom.png" alt="bed room">
-              <h3>Bedroom</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-     </section>
-    <section class="our-product">
-      <div class="container">
-        <div class="product align-item-center">
-          <h2>Our Products</h2>
-          <div class="cart">
-            <div class="product-card">
-              <small>-30%</small>
-              <img src="./assets/image/Syltherin.png" alt="Syltherine">
-              <div class="hover-content">
-                <button>Add to cart</button>
-                <div class="actions d-flex ">
-                  <img src="./assets/image/share.svg" alt="share">
-                  <span>Share</span>
-                  <img src="./assets/image/compare1 .svg" alt="compare">
-                  <span>Compare</span>
-                  <img src="./assets/image/heart.svg" alt="Heart2">
-                  <span>Like</span>
-                </div>
-              </div>
-              <div class="text">
-                <h3>Syltherine</h3>
-                <span>Stylish cafe chair</span>
-                <p class="price">Rp 2.500.000 <span class="old-price">Rp 3.500.000</span></p>
-              </div>
-            </div>
-            <div class="product-card">
-              <em>new</em>
-              <img src="./assets/image/Leviosa.png" alt="Leviosa">
-              <div class="hover-content">
-                <button>Add to cart</button>
-                <div class="actions d-flex ju">
-                  <img src="./assets/image/share.svg" alt="share">
-                  <span>Share</span>
-                  <img src="./assets/image/compare1 .svg" alt="compare">
-                  <span>Compare</span>
-                  <img src="./assets/image/Heart (2).svg" alt="Heart">
-                  <span>Like</span>
-                </div>
-              </div>
-              <div class="text">
-                <h3>Leviosa</h3>
-                <span>Stylish cafe chair</span>
-                <p class="price">Rp 2.500.000</p>
-              </div>
-            </div>
-            <div class="product-card">
-              <small>-50%</small>
-              <img src="./assets/image/Lolito.png" alt="Lolito">
-              <div class="hover-content">
-                <button>Add to cart</button>
-                <div class="actions d-flex ju">
-                  <img src="./assets/image/share.svg" alt="share">
-                  <span>Share</span>
-                  <img src="./assets/image/compare1 .svg" alt="compare">
-                  <span>Compare</span>
-                  <img src="./assets/image/heart.svg" alt="Heart">
-                  <span>Like</span>
-                </div>
-              </div>
-              <div class="text">
-                <h3>Lolito</h3>
-                <span>Luxury big sofa</span>
-                <p class="price">Rp 7.000.000 <span class="old-price">Rp 7.000.000</span></p>
-              </div>
-            </div>
-            <div class="product-card">
-              <em>New</em>
-              <img src="./assets/image/Respira.png" alt="Respira">
-              <div class="hover-content">
-                <button>Add to cart</button>
-                <div class="actions d-flex ju">
-                  <img src="./assets/image/share.svg" alt="share">
-                  <span>Share</span>
-                  <img src="./assets/image/compare1 .svg" alt="compare">
-                  <span>Compare</span>
-                  <img src="./assets/image/heart.svg" alt="Heart">
-                  <span>Like</span>
-                </div>
-              </div>
-              <div class="text">
-                <h3>Respira</h3>
-                <span>Outdoor bar table and stool</span>
-                <p class="price">Rp 500.000</p>
-              </div>
-            </div>
-            <div class="product-card">
-              <small>-20%</small>
-              <img src="./assets/image/Grifo.png" alt="Grifo">
-              <div class="hover-content">
-                <button>Add to cart</button>
-                <div class="actions d-flex ju">
-                  <img src="./assets/image/share.svg" alt="share">
-                  <span>Share</span>
-                  <img src="./assets/image/compare1 .svg" alt="compare">
-                  <span>Compare</span>
-                  <img src="./assets/image/heart.svg" alt="Heart">
-                  <span>Like</span>
-                </div>
-              </div>
-              <div class="text">
-                <h3>Grifo</h3>
-                <span>Night lamp</span>
-                <p class="price">Rp 1.500.000</p>
-              </div>
-            </div>
-            <div class="product-card">
-              <em>New</em>
-              <img src="./assets/image/Muggo.png" alt="Muggo">
-              <div class="hover-content">
-                <button>Add to cart</button>
-                <div class="actions d-flex ju">
-                  <img src="./assets/image/share.svg" alt="share">
-                  <span>Share</span>
-                  <img src="./assets/image/compare1 .svg" alt="compare">
-                  <span>Compare</span>
-                  <img src="./assets/image/heart.svg" alt="Heart">
-                  <span>Like</span>
-                </div>
-              </div>
-              <div class="text">
-                <h3>Muggo</h3>
-                <span>Small mug</span>
-                <p class="price">Rp 150.000</p>
-              </div>
-            </div>
-            <div class="product-card">
-              <small>-50%</small>
-              <img src="./assets/image/Pingky.png" alt="Pingky">
-              <div class="hover-content">
-                <button>Add to cart</button>
-                <div class="actions d-flex ju">
-                  <img src="./assets/image/share.svg" alt="share">
-                  <span>Share</span>
-                  <img src="./assets/image/compare1 .svg" alt="compare">
-                  <span>Compare</span>
-                  <img src="./assets/image/heart.svg" alt="Heart">
-                  <span>Like</span>
-                </div>
-              </div>
-              <div class="text">
-                <h3>Pingky</h3>
-                <span>Cute bed set</span>
-                <p class="price">Rp 7.000.000 <span class="old-price">Rp 14.000.000</span></p>
-              </div>
-            </div>
-            <div class="product-card">
-              <em>New</em>
-              <img src="./assets/image/Potty.png" alt="Potty">
-              <div class="hover-content">
-                <button>Add to cart</button>
-                <div class="actions d-flex ju">
-                  <img src="./assets/image/share.svg" alt="share">
-                  <span>Share</span>
-                  <img src="./assets/image/compare1 .svg" alt="compare">
-                  <span>Compare</span>
-                  <img src="./assets/image/heart.svg" alt="Heart">
-                  <span>Like</span>
-                </div>
-              </div>
-              <div class="text">
-                <h3>Potty</h3>
-                <span>Minimalist flower pot</span>
-                <p class="price">Rp 500.000</p>
-              </div>
-            </div>
-          </div>
-          <button>See More</button>
-        </div>
-      </div>
-    </section>
-    
-      <div class="carousel-controls">
-        <div class="dots">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-        <button class="next-btn">→</button>
-      </div>
-    </section>
-
-
-    <section class="room-inspiration">
-  <div class="container d-flex">
-    
-    <!-- Left Content -->
-    <div class="left-content">
-      <h2>50+ Beautiful rooms inspiration</h2>
-      <p>Our designer already made a lot of beautiful prototype of rooms that inspire you</p>
-      <button class="explore-btn">Explore More</button>
-    </div>
-
-    <!-- Right Slider -->
-    <div class="slider">
-      <!-- Slide Item -->
-      <div class="slide">
-        <img src="./assets/image/room1.jpg" alt="Room 1">
-        <div class="slide-content">
-          <p>01 — Bed Room</p>
-          <h3>Inner Peace</h3>
-          <button class="arrow-btn">→</button>
-        </div>
-      </div>
-
-      <!-- Another Slide (Example) -->
-      <div class="slide">
-        <img src="./assets/image/room2.jpg" alt="Room 2">
-      </div>
-
-      <!-- Slider Dots -->
-      <div class="slider-dots">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-    <section class="share your setup d-flex">
-      <div class="container">
-        <h2>Share your setup with</h2>
-        <h1>#FuniroFurniture</h1>
-        <div class="grid">
-          <img src="./assets/image/img1.jpg" alt="Image 1">
-
-          <img src="./assets/image/img2.jpg" alt="Image 2">
-          <img src="./assets/image/img3.jpg" alt="Image 3">
-          <img src="./assets/image/img4.jpg" alt="Image 4">
-          <img src="./assets/image/img5.jpg" alt="Image 5">
-          <img src="./assets/image/img6.jpg" alt="Image 6">
-          <img src="./assets/image/img7.jpg" alt="Image 7">
-          <img src="./assets/image/img8.jpg" alt="Image 8">
-          <img src="./assets/image/img9.jpg" alt="Image 9">
-        </div>
-      </div>
-
-    </section>
-  </main>
-
-
-  <footer>
-    <div class="container">
-      <div class="footer d-flex">
-        <div class="footlogo">
-          <a href="#" aria-label="go to home page"><img src="./assets/image/logo.svg" alt="funiro logo"></a>
-          <p>400 University Drive Suite 200 Coral Gables,</p>
-          <p>FL 33134</p>
-          <p> USA</p>
-        </div>
-        <div class="footlink d-flex ">
-          <div class="links d-flex flex-coloum ">
-            <h3>links</h3>
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </div>
-          <div class="Help d-flex flex-coloum ">
-            <h3>Help</h3>
-            <a href="#">Payment Options</a>
-            <a href="#">Returns</a>
-            <a href="#">Privacy Policies</a>
-          </div>
-          <div class="newsletter">
-            <h3>Newsletter</h3>
-            <div class="subscribe-form d-flex">
-              <input type="email" placeholder="Enter Your Email Address" />
-              <button>SUBSCRIBE</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footcaption">
-        <p>2023 furino. All rights reverved</p>
-      </div>
+    <hr class="footer-divider" />
+    <div class="footer-bottom">
+      <p>2023 furniro. All rights reserved</p>
     </div>
   </footer>
 </body>
